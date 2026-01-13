@@ -1,0 +1,21 @@
+.notfound-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 40px;
+  direction: rtl;
+}
+
+.notfound-title {
+  font-size: 10rem;
+  color: #dc3545;
+}
+
+.notfound-subtitle {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.notfound-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
