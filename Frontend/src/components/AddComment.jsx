@@ -29,7 +29,7 @@ const AddComment = ({ articleName, parentId = null, onAddReply }) => {
     };
 
     try {
-      const response = await fetch("http://api.alyusrforshipping.com/comment/add", {
+      const response = await fetch("http://localhost:7000/comment/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

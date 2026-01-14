@@ -22,7 +22,7 @@ export default function CKEditorWrapper({ data, onChange }) {
       data.append("upload", file);
       data.append("type", "ckeditor");
 
-      return fetch("https://api.alyusrforshipping.com/photo/upload", {
+      return fetch("http://localhost:7000/photo/upload", {
         method: 'POST',
         body: data
       })

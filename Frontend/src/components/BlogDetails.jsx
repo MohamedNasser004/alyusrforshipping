@@ -22,7 +22,7 @@ const BlogDetails = ({ blog }) => {
     return `<img${group} alt="${blog.title}" loading="lazy">`;
   })
   ?.replace(/<img[^>]*src=["'](?!https?:\/\/)([^"']+)["']/gi, (match, src) => {
-    return match.replace(src, `https://api.alyusrforshipping.com/${src}`);
+    return match.replace(src, `http://localhost:7000/${src}`);
   }) || '';
 
 

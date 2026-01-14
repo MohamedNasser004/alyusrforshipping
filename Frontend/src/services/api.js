@@ -1,7 +1,7 @@
 import axios from 'axios';
 import axiosInstance from '../services/axiosInstance';
 
-const API_BASE_URL = 'https://api.alyusrforshipping.com/';
+const API_BASE_URL = 'http://localhost:7000/';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

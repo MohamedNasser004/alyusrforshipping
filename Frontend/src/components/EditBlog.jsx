@@ -21,7 +21,7 @@ const EditBlog = ({ title }) => {
       }
 
       try {
-        const response = await fetch(`https://api.alyusrforshipping.com/article/${slug}`, {
+        const response = await fetch(`http://localhost:7000/article/${slug}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -101,7 +101,7 @@ const EditBlog = ({ title }) => {
     if (photo) formData.append("photo", photo);
 
     try {
-      const response = await fetch(`https://api.alyusrforshipping.com/article/${slug}`, {
+      const response = await fetch(`http://localhost:7000/article/${slug}`, {
         method: "PUT",
         headers: {
           Authorization: `Bearer ${token}`,

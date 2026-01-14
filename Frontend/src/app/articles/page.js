@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 export const revalidate = 0;
 
 async function getArticles() {
-  const ApiUrl = "https://api.alyusrforshipping.com/article/all";
+  const ApiUrl = "http://localhost:7000/article/all";
 
   const res = await fetch(ApiUrl, {
     method: "GET",
