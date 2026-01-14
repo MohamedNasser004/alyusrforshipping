@@ -191,7 +191,7 @@ function Update({ slug, setActiveComponent }) {
           <div>
             {values.photo && (
               <img
-                src={`https://api.alyusrforshipping.com${values.photo}`}
+                src={`http://localhost:7000${values.photo}`}
                 alt="الصورة الحالية"
                 style={{ maxWidth: "100%", maxHeight: "200px" }}
               />

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://api.alyusrforshipping.com", // العنوان الرئيسي للـ API
+  baseURL: "http://localhost:7000/", // العنوان الرئيسي للـ API
 });
 
 // Interceptor لإضافة الـ Token إلى كل الطلبات
